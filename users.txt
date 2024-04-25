@@ -1,0 +1,5 @@
+Username: jose.garcia, Password: tambor2010, Email: jota.ibanez2010@gmail.com
+Username: umair, Password: 12345, Email: hello@be.com
+Username: umair, Password: 123, Email: ap@gmail.com
+Username: 123, Password: 123, Email: 123@123.com
+Username: jota.ibanez2010@gmail.com, Password: 9999, Email: jota.ibanez2010@gmail.com
