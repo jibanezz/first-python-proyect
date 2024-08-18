@@ -5,10 +5,11 @@ class Brick ():
     def __init__(self):
         self.bricks = []
 
-    def create_bricks(self):
-        x_positons = [-200, -150, -100, -50,0, 50, 100, 150, 200]
+    def create_bricks(self,y_positions = [200,175,150,125],x_positons = [-200, -150, -100, -50,0, 50, 100, 150, 200]):
+        
         colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple','black','pink' ,'red' ]
-        y_positions = [200,175,150,125]
+       
+    
         for y in y_positions:
             color = random.choice(colors)
             for x in x_positons:

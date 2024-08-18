@@ -18,8 +18,7 @@ class Platform(turtle.Turtle):
             self.backward(5)
             if self.xcor() < -280:
                 self.goto(-280, self.ycor())
-            turtle.ontimer(self.move_left, 100)
-
+           
 
     def start_moving_left(self):
         self.is_moving_left = True
@@ -36,8 +35,7 @@ class Platform(turtle.Turtle):
             self.forward(5)
             if self.xcor() > 280:
                 self.goto(280, self.ycor())
-            turtle.ontimer(self.move_right, 100)
-
+           
     def start_moving_right(self):
         self.is_moving_right = True
         self.move_right()
